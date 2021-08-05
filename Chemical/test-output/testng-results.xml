@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-22T17:22:55 IST" name="Default suite" finished-at="2021-07-22T17:23:55 IST" duration-ms="59899">
+    <groups>
+    </groups>
+    <test started-at="2021-07-22T17:22:55 IST" name="Default test" finished-at="2021-07-22T17:23:55 IST" duration-ms="59899">
+      <class name="executableclasses.LoginTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:executableclasses.LoginTest@209da20d]" started-at="2021-07-22T17:22:54 IST" name="reportInitialization" finished-at="2021-07-22T17:22:55 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method signature="chemicalUrlLaunch()[pri:1, instance:executableclasses.LoginTest@209da20d]" started-at="2021-07-22T17:22:55 IST" name="chemicalUrlLaunch" finished-at="2021-07-22T17:23:16 IST" duration-ms="20481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chemicalUrlLaunch -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:executableclasses.LoginTest@209da20d]" started-at="2021-07-22T17:23:16 IST" name="getResult" finished-at="2021-07-22T17:23:16 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chemicalUrlLaunch status=SUCCESS method=LoginTest.chemicalUrlLaunch()[pri:1, instance:executableclasses.LoginTest@209da20d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="search(java.lang.String)[pri:4, instance:executableclasses.LoginTest@209da20d]" started-at="2021-07-22T17:23:21 IST" name="search" data-provider="homeSearch" finished-at="2021-07-22T17:23:39 IST" duration-ms="17917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Radium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:executableclasses.LoginTest@209da20d]" started-at="2021-07-22T17:23:39 IST" name="getResult" finished-at="2021-07-22T17:23:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=LoginTest.search(java.lang.String)[pri:4, instance:executableclasses.LoginTest@209da20d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="search(java.lang.String)[pri:4, instance:executableclasses.LoginTest@209da20d]" started-at="2021-07-22T17:23:39 IST" name="search" data-provider="homeSearch" finished-at="2021-07-22T17:23:55 IST" duration-ms="16717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sulphur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:executableclasses.LoginTest@209da20d]" started-at="2021-07-22T17:23:55 IST" name="getResult" finished-at="2021-07-22T17:23:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=LoginTest.search(java.lang.String)[pri:4, instance:executableclasses.LoginTest@209da20d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:executableclasses.LoginTest@209da20d]" started-at="2021-07-22T17:23:56 IST" name="reportGenerate" finished-at="2021-07-22T17:23:57 IST" duration-ms="1421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+      </class> <!-- executableclasses.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
